@@ -20,8 +20,8 @@ app.post("/weather", function(req,res){
         const temp= weatherdata.main.temp;
         res.write("The temp at "+ city +" is " + temp +" kelvin");
         res.send();       
-      })
-    })
+      });
+    });
 });
 
 app.listen(process.env.PORT || 3000);
