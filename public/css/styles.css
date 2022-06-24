@@ -1,0 +1,28 @@
+body{
+    background-image: url("../img/images.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    top: 16%;
+    right: 34%;
+}
+.text1{
+    color: red;
+    position: absolute;
+    top: 70%;
+    right: 45%;
+}
+.form1{
+    position: absolute;
+    top: 50%;
+    right: 43%;
+}
+.marker{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 20%;
+    right: 45%;
+}
